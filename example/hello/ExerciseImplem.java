@@ -9,7 +9,7 @@ public class ExerciseImplem extends UnicastRemoteObject implements Exercise{
     }
 
     public String sayRunning() {
-        return "Server Running";
+        return "Server2 Running";
     }
 
     public int sayRunningPort(int port) {

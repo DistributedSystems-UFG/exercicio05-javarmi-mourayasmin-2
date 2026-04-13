@@ -36,11 +36,11 @@ public class Client {
             double result2 = stub.divider(100, 2);
             System.out.println("Response from divider: " + result2);
 
-            int result3 = exercise.sayRunningPort(5679);
-            System.out.println("Running port is: " + result3);
+            String isRunning = exercise.sayRunning();
+            System.out.println("Response from sayRunning: " + isRunning);
 
-            String result4 = exercise.sayRunning();
-            System.out.println(result4);
+            int result3 = exercise.sayRunningPort(5679);
+            System.out.println("Response from sayRunningPort: " + result3);
 
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
